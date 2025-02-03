@@ -13,7 +13,9 @@ public class TextBook extends Book{
     @Override
     public void displayBookDetails() {
         System.out.println("Book Details:");
-        System.out.println("Name:");
+        System.out.println("Title:"+getTitle());
+        System.out.println("Author:"+getAuthor());
+        System.out.println("isbn:"+getIsbn());
     }
 
 }

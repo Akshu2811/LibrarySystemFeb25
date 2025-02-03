@@ -24,6 +24,18 @@ public abstract class Book implements Lendable {
         this.author = other.author;
     }
 
+    public String getIsbn() {
+        return isbn;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
     // If the book is available and the user can borrow, mark the
     //book as unavailable and return true.
     @Override

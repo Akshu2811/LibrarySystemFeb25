@@ -12,6 +12,10 @@ public class NovelBook extends Book {
     @Override
     public void displayBookDetails(){
         System.out.println("Novel Details");
+        System.out.println("genre:"+genre);
+        System.out.println("title: "+super.getTitle());
+        System.out.println("author: "+super.getAuthor());
+        System.out.println("isbn: "+super.getIsbn());
     }
 
 }
